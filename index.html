@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIZIP - AI를 한곳에서</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111827;
+    color:white;
+}
+
+header{
+    padding:60px 20px;
+    text-align:center;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#bdbdbd;
+}
+
+.search{
+    max-width:600px;
+    margin:30px auto;
+}
+
+input{
+    width:90%;
+    padding:18px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#888;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🤖 AIZIP</h1>
+
+<p>세상의 모든 AI를 한곳에서</p>
+
+<div class="search">
+<input placeholder="필요한 AI를 검색해보세요">
+</div>
+
+</header>
+
+<div class="grid">
+
+<a href="https://chatgpt.com">
+<div class="card">
+<h2>💬 ChatGPT</h2>
+<p>대화형 AI</p>
+</div>
+</a>
+
+<a href="https://gemini.google.com">
+<div class="card">
+<h2>✨ Gemini</h2>
+<p>Google AI</p>
+</div>
+</a>
+
+<a href="https://claude.ai">
+<div class="card">
+<h2>🧠 Claude</h2>
+<p>글쓰기 AI</p>
+</div>
+</a>
+
+<a href="https://perplexity.ai">
+<div class="card">
+<h2>🔍 Perplexity</h2>
+<p>검색 AI</p>
+</div>
+</a>
+
+</div>
+
+<footer>
+
+AIZIP © 2026
+
+</footer>
+
+</body>
+</html>
